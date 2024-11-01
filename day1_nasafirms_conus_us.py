@@ -30,7 +30,7 @@ def get_fire_data(main_url, map_key, source, area, day_range, date):
         return pd.DataFrame()
 
 main_url = "https://firms.modaps.eosdis.nasa.gov/api/area/csv"
-map_key = "55edd3236909dfc32cd5bac619891948"   # Your API key
+map_key = "*************************"   # Your API key
 source = "VIIRS_SNPP_NRT"
 day_range = 10  # Changed to 10 as per API limitation
 date = (datetime.now() - timedelta(days=11)).strftime('%Y-%m-%d')
